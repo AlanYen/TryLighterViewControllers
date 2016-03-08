@@ -15,6 +15,8 @@
 		2DCB45BD1C8E91110040EF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCB45BB1C8E91110040EF7A /* LaunchScreen.storyboard */; };
 		2DCB45C81C8E91110040EF7A /* TryLighterViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB45C71C8E91110040EF7A /* TryLighterViewControllersTests.m */; };
 		2DCB45D31C8E91110040EF7A /* TryLighterViewControllersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB45D21C8E91110040EF7A /* TryLighterViewControllersUITests.m */; };
+		2DCB45E31C8E917B0040EF7A /* ALTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB45E21C8E917B0040EF7A /* ALTableViewDataSource.m */; };
+		2DCB45E61C8EA5AB0040EF7A /* CustomCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB45E51C8EA5AB0040EF7A /* CustomCellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2DCB45CE1C8E91110040EF7A /* TryLighterViewControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryLighterViewControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCB45D21C8E91110040EF7A /* TryLighterViewControllersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryLighterViewControllersUITests.m; sourceTree = "<group>"; };
 		2DCB45D41C8E91110040EF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCB45E11C8E917B0040EF7A /* ALTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTableViewDataSource.h; sourceTree = "<group>"; };
+		2DCB45E21C8E917B0040EF7A /* ALTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTableViewDataSource.m; sourceTree = "<group>"; };
+		2DCB45E41C8EA5AB0040EF7A /* CustomCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellModel.h; sourceTree = "<group>"; };
+		2DCB45E51C8EA5AB0040EF7A /* CustomCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		2DCB45AC1C8E91110040EF7A /* TryLighterViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2DCB45E01C8E91660040EF7A /* DataSource */,
 				2DCB45B01C8E91110040EF7A /* AppDelegate.h */,
 				2DCB45B11C8E91110040EF7A /* AppDelegate.m */,
 				2DCB45B31C8E91110040EF7A /* ViewController.h */,
@@ -138,6 +145,17 @@
 				2DCB45D41C8E91110040EF7A /* Info.plist */,
 			);
 			path = TryLighterViewControllersUITests;
+			sourceTree = "<group>";
+		};
+		2DCB45E01C8E91660040EF7A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DCB45E11C8E917B0040EF7A /* ALTableViewDataSource.h */,
+				2DCB45E21C8E917B0040EF7A /* ALTableViewDataSource.m */,
+				2DCB45E41C8EA5AB0040EF7A /* CustomCellModel.h */,
+				2DCB45E51C8EA5AB0040EF7A /* CustomCellModel.m */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCB45E61C8EA5AB0040EF7A /* CustomCellModel.m in Sources */,
 				2DCB45B51C8E91110040EF7A /* ViewController.m in Sources */,
+				2DCB45E31C8E917B0040EF7A /* ALTableViewDataSource.m in Sources */,
 				2DCB45B21C8E91110040EF7A /* AppDelegate.m in Sources */,
 				2DCB45AF1C8E91110040EF7A /* main.m in Sources */,
 			);
